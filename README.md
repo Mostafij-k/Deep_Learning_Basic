@@ -1,139 +1,182 @@
-🧠Deep Learning
-A structured collection of Deep Learning concepts, implementations, and experiments my journey from fundamental neural networks to modern Transformer architectures.
+# 🧠 Deep Learning
 
-This repository focuses on understanding how deep learning models work internally, combining mathematical intuition with practical implementations using Python, NumPy, TensorFlow, and Keras.
+A structured and hands-on journey through **Deep Learning**, covering fundamental neural networks, computer vision, sequence modeling, attention mechanisms, and modern Transformer architectures.
 
-📚 What This Repository Covers
-The repository follows a progressive learning path, starting from the fundamentals of neural networks and gradually moving toward advanced architectures used in Computer Vision and Natural Language Processing.
+This repository combines **theoretical understanding, mathematical intuition, from-scratch implementations, and practical experiments** using Python, NumPy, TensorFlow, and Keras.
 
-1. 🧩 Artificial Neural Networks (ANN)
+The goal is not simply to use deep learning frameworks, but to understand **what happens inside the models and why they work**.
+
+---
+
+## 📚 Learning Roadmap
+
+The repository follows a progressive learning path — starting from the fundamentals of neural networks and gradually advancing toward modern architectures used in **Computer Vision, Natural Language Processing (NLP), Generative AI, and LLMs**.
+
+### 1. 🧩 Artificial Neural Networks (ANN)
+
 Fundamentals of neural networks and how they learn from data.
 
-Topics include:
+**Topics covered:**
 
-Perceptron
-Artificial Neural Networks
-Forward Propagation
-Backpropagation
-Loss Functions
-Activation Functions
-Gradient Descent
-Batch Gradient Descent
-Stochastic Gradient Descent
-Mini-Batch Gradient Descent
-Optimizers
-Vanishing Gradient Problem
-Dropout
-Batch Normalization
-Universal Approximation Theorem
-2. 🖼️ Convolutional Neural Networks (CNN)
-Understanding how neural networks process and learn visual features from images.
+- Perceptron
+- Artificial Neural Networks
+- Multi-Layer Perceptron (MLP)
+- Forward Propagation
+- Backpropagation
+- Loss Functions
+- Activation Functions
+- Gradient Descent
+- Batch Gradient Descent
+- Stochastic Gradient Descent (SGD)
+- Mini-Batch Gradient Descent
+- Optimizers
+- Learning Rate
+- Vanishing Gradient Problem
+- Dropout
+- Batch Normalization
+- Universal Approximation Theorem
 
-Topics include:
+The concepts are explored through both **mathematical explanations and practical implementations**.
 
-Convolution Operation
-Filters and Kernels
-Stride
-Padding
-Feature Maps
-Pooling
-Max Pooling
-CNN Architecture
-Transfer Learning
-Pretrained Models
-ResNet50
-VGG16
-CNN Visualization
-Practical implementations are included to understand how convolutional networks learn hierarchical visual representations.
+---
 
-3. 🔄 Recurrent Neural Networks (RNN)
-Sequence modeling and the fundamentals of processing sequential data.
+### 2. 🖼️ Convolutional Neural Networks (CNN)
 
-Topics include:
+Understanding how deep learning models process images and learn hierarchical visual representations.
 
-Simple RNN
-Recurrent Neural Network Architecture
-Sequence Modeling
-Many-to-One Architecture
-Many-to-Many Architecture
-Bidirectional RNN
-Deep RNN
-Sentiment Analysis
+**Topics covered:**
 
-6. 🤖 Transformers
-A detailed exploration of the Transformer architecture and its components.
+- Convolution Operation
+- Filters and Kernels
+- Stride
+- Padding
+- Feature Maps
+- Pooling
+- Max Pooling
+- CNN Architecture
+- Transfer Learning
+- Pretrained Models
+- VGG16
+- ResNet50
+- CNN Visualization
 
-Topics include:
+Practical experiments are included to understand how CNNs progressively learn features such as **edges, textures, shapes, and higher-level visual patterns**.
 
-Transformer Architecture
-Encoder
-Decoder
-Self-Attention
-Multi-Head Attention
-Positional Encoding
-Masked Self-Attention
-Cross-Attention
-Feed-Forward Networks
-Residual Connections
-Layer Normalization
-Encoder-Decoder Architecture
-The Transformer architecture introduced an attention-based approach that enables highly parallel sequence processing and became a foundation for many modern NLP models.
+---
 
-🛠️ Technologies & Tools
-The notebooks and implementations in this repository primarily use:
+### 3. 🔄 Recurrent Neural Networks (RNN)
 
-🐍 Python
-🔢 NumPy
-📊 Pandas
-📈 Matplotlib
-🎨 Seaborn
-🧠 TensorFlow
-⚡ Keras
-📓 Jupyter Notebook
-☁️ Google Colab
-🎯 Learning Approach
-Each topic is studied through a combination of:
+Introduction to sequence modeling and neural networks designed to process sequential data.
 
-Theory → Mathematical Intuition → From-Scratch Implementation → Framework Implementation → Practical Experiment
+**Topics covered:**
 
-The goal is not only to use deep learning libraries, but to understand the underlying concepts and mathematical operations behind the models.
+- Simple RNN
+- RNN Architecture
+- Sequence Modeling
+- Hidden States
+- Many-to-One Architecture
+- Many-to-Many Architecture
+- Bidirectional RNN
+- Deep RNN
+- Sentiment Analysis
 
-💡 Key Concepts
-This repository provides hands-on practice with major Deep Learning architectures:
+These concepts provide the foundation for understanding more advanced sequence models such as **LSTM and GRU**.
 
-Area	Concepts
-Neural Networks	ANN, MLP, Backpropagation, Gradient Descent
-Optimization	SGD, Momentum, Optimizers, Learning Rate
-Regularization	Dropout, Batch Normalization
-Computer Vision	CNN, Transfer Learning, ResNet50, VGG16
-Sequence Modeling	RNN, Bi-RNN, LSTM, GRU
-Attention	Self-Attention, Q-K-V, Multi-Head Attention
-Transformers	Encoder, Decoder, Positional Encoding, Masking
-Frameworks	TensorFlow, Keras, NumPy
-🚀 Purpose
-The main objectives of this repository are to:
+---
 
-Build a strong foundation in Deep Learning
-Understand the mathematics behind neural networks
-Implement important concepts from scratch
-Gain practical experience with TensorFlow and Keras
-Understand CNNs for Computer Vision
-Understand RNNs, LSTMs and GRUs for sequence modeling
-Understand Attention and Transformer architectures
-Build a strong foundation for advanced topics in NLP, Generative AI and LLMs
+### 4. 🧠 LSTM & GRU
 
+Exploring advanced recurrent architectures designed to address limitations of traditional RNNs.
+
+**Topics covered:**
+
+- Long Short-Term Memory (LSTM)
+- LSTM Architecture
+- Forget Gate
+- Input Gate
+- Output Gate
+- Cell State
+- Hidden State
+- Gated Recurrent Unit (GRU)
+- GRU Architecture
+- Comparison of RNN, LSTM, and GRU
+- Sequence Classification
+
+---
+
+### 5. 🎯 Attention Mechanism
+
+Understanding the concepts that led from recurrent architectures to modern Transformer-based models.
+
+**Topics covered:**
+
+- Attention Mechanism
+- Query (Q)
+- Key (K)
+- Value (V)
+- Attention Scores
+- Scaled Dot-Product Attention
+- Self-Attention
+- Contextual Representations
+
+The attention mechanism is studied as a foundation for understanding **Transformer architectures**.
+
+---
+
+### 6. 🤖 Transformers
+
+A detailed exploration of the architecture that transformed modern NLP and became a foundation for many Generative AI and Large Language Models.
+
+**Topics covered:**
+
+- Transformer Architecture
+- Encoder
+- Decoder
+- Self-Attention
+- Multi-Head Attention
+- Query, Key & Value
+- Positional Encoding
+- Masked Self-Attention
+- Cross-Attention
+- Feed-Forward Networks
+- Residual Connections
+- Layer Normalization
+- Encoder-Decoder Architecture
+
+The Transformer introduced an attention-based approach that enables highly parallel sequence processing and forms the foundation of many modern NLP and language models.
 
 👨‍💻 Author
 Mostafijur Rahman
 
-MS in Microbiology, Jashore University of Science and Technology
+MSc in Microbiology
+Jashore University of Science and Technology
 
-🔗 Connect
-GitHub: Mostafijur Rahman
-Deep Learning Repository: Deep-Learning
-Resources - campus x yt (https://youtu.be/2dH_qjc9mFg?si=t1uR94yaTFi-sbHq) & Rajan Prasad Github: https://github.com/rajanprasad3
-⭐ Repository
-If you find this repository useful for learning Deep Learning, feel free to ⭐ star the repository and explore the notebooks.
+Interested in:
 
-📖 References
-The concepts covered in this repository align with standard Deep Learning topics such as neural networks, CNNs, RNNs, LSTMs, GRUs, attention, and Transformers. These architectures are also covered in established educational resources and current university-level Deep Learning curricula.
+🧬 Cancer Biology
+🦠 Infectious Diseases
+🧪 Molecular Biology
+🧬 Computational Biology
+🤖 Machine Learning & Deep Learning
+🧠 AI in Biomedical Research
+💊 AI-Assisted Drug Discovery
+🔗 Resources & References
+Learning Resources
+campus x yt (https://youtu.be/2dH_qjc9mFg?si=t1uR94yaTFi-sbHq)
+Rajan Prasad: https://github.com/rajanprasad3
+
+⭐ Support
+
+If you find this repository useful for learning Deep Learning, consider:
+
+⭐ Starring the repository
+
+🍴 Forking the repository
+
+📚 Exploring the notebooks
+
+💡 Sharing feedback or suggestions
+
+📜 License
+
+This repository is intended primarily for educational and learning purposes.
